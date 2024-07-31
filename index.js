@@ -9,11 +9,10 @@ app.use(morgan('combined'));
 
 const port = Math.floor(Math.random() * (65535 - 1024) + 1024);
 
-// uptime
+// Serve index.html file
 app.get('/', (req, res) => {
-  res.send('Welcome to my API');
+    res.sendFile(path.join(__dirname, 'index.html'));
 });
-
 // First API - Blackbox
 app.get('/api/box', async (req, res) => {
   try {
