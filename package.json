@@ -7,22 +7,19 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "request": "^2.88.2"
-  }
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
+    "express": "^4.18.2",
+    "request": "^2.88.2",
     "@types/node": "^18.0.6",
     "axios": "^1.5.1",
     "body-parser": "^1.20.2",
-    "express": "^4.18.2",
     "hercai": "^11.1.3",
     "luxon": "^3.4.3",
     "morgan": "^1.10.0",
     "node-fetch": "^3.2.6",
     "totp-generator": "^0.0.14",
     "uuid": "^9.0.1"
-  }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
